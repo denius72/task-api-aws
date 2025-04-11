@@ -22,18 +22,19 @@ Usei AWS RDS como banco (MySQL) e AWS S3 pra salvar arquivos enviados nas tarefa
 ## Endpoints
 
 | Método | Rota                  | Descrição                         |
-|--------|------------------------|-----------------------------------|
-| GET    | /tasks                 | Lista todas as tarefas            |
-| POST   | /tasks                 | Cria uma nova tarefa              |
+|--------|-----------------------|-----------------------------------|
+| GET    | /tasks                | Lista todas as tarefas            |
+| POST   | /tasks                | Cria uma nova tarefa              |
 | PUT    | /tasks/{id}           | Atualiza uma tarefa               |
 | DELETE | /tasks/{id}           | Deleta uma tarefa                 |
 | POST   | /tasks/{id}/upload    | Faz upload de arquivo pra tarefa  |
+|--------|-----------------------|-----------------------------------|
 
 ## Exemplo de tarefa
 
 ```json
 {
-  "title": "Estudar AWS",
+  "title": "Exemplo AWS",
   "description": "Focar em S3 e RDS",
   "dueDate": "2025-04-15",
   "status": "PENDING"
