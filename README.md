@@ -28,7 +28,6 @@ Usei AWS RDS como banco (MySQL) e AWS S3 pra salvar arquivos enviados nas tarefa
 | PUT    | /tasks/{id}           | Atualiza uma tarefa               |
 | DELETE | /tasks/{id}           | Deleta uma tarefa                 |
 | POST   | /tasks/{id}/upload    | Faz upload de arquivo pra tarefa  |
-|--------|-----------------------|-----------------------------------|
 
 ## Exemplo de tarefa
 
