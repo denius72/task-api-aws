@@ -35,6 +35,6 @@ Usei AWS RDS como banco (MySQL) e AWS S3 pra salvar arquivos enviados nas tarefa
 {
   "title": "Exemplo AWS",
   "description": "Focar em S3 e RDS",
-  "dueDate": "2025-04-15",
+  "dueDate": "2025-06-11",
   "status": "PENDING"
 }
